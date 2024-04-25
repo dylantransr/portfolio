@@ -37,8 +37,6 @@
         <section class="home bd-grid" id="home">
             <div class="home__data">
                 <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Dylan</span><br>Software Engineer<br>and Web Designer</h1>
-
-                <a href="#" class="button">Contact</a>
             </div>
 
             <div class="home__social">
@@ -54,11 +52,6 @@
                     <g mask="url(#mask0)">
                         <path d="M 47.0826 77.1912 C 48.2977 47.6332 90.2422 32.2818 120.123 21.1521 C 146.114 11.1615 179.934 -1.77757 216.924 6.00305 C 256.716 14.6336 302.241 51.6843 332.844 88.2568 C 365.014 127.101 379.59 177.445 382.599 229.537 C 386.087 291.07 367.873 348.342 340.211 394.755 C 311.378 442.142 272.76 482.963 214.748 483.157 C 157.769 483.351 104.054 437.625 68.8501 389.191 C 33.2998 340.23 -0.574929 287.899 12.5107 230.047 C 24.1794 172.794 36.8674 106.333 47.0826 77.1912 Z" />
                         <image class="home__blob-img" x="100" y="65" href="perfil.png"/>
-                    </g>
-                    <!-- Adding smaller blob -->
-                    <g mask="url(#mask0)">
-                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" fill="white"/>
-                        <image class="home__blob-img" x="137" y="98" href="perfil.png"/>
                     </g>
                 </svg>
             </div>
@@ -178,8 +171,12 @@
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
-                <p class="contact">Contact Me!</p>
-                <p class="contact__email">dylantransr@gmail.com</p>
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
+                </form>
             </div>
         </section>
     </main>
